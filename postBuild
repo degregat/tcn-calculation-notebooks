@@ -1,0 +1,2 @@
+julia -e 'using WebIO, IJulia; WebIO.install_jupyter_nbextension()'
+jupyter nbextension enable --user webio-jupyter-notebook
